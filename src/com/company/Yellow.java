@@ -1,9 +1,14 @@
 package com.company;
 
-public class Yellow implements Color {
+public class Yellow implements Light {
 
-    public Color changeColor (){
+
+    public Light changeLight (){
         System.out.println("Green");
         return new Green();
+    }
+
+    public void printLight(){
+        System.out.println("Yellow");
     }
 }

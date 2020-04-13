@@ -3,10 +3,15 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // Random Light instance
+        Light light = new Red();
 
-        Color light = new Red();
+        // Traffic Light instance of light
+        TrafficLight tl = new TrafficLight(light);
 
-        light.changeColor();
+        tl.changeLight();
+        tl.changeLight();
+        tl.changeLight();
+
     }
 }
