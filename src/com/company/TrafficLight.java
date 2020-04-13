@@ -13,11 +13,4 @@ public class TrafficLight implements Light{
         return state;
     }
 
-    public void printLight(){
-        state.printLight();
-    }
-
-
-
-
 }

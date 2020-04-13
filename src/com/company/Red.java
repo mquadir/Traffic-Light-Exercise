@@ -7,8 +7,4 @@ public class Red implements Light {
         return new Yellow();
     }
 
-    public void printLight(){
-        System.out.println("Red");
-    }
-
 }

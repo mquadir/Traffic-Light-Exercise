@@ -12,6 +12,7 @@ public class Main {
         tl.changeLight();
         tl.changeLight();
         tl.changeLight();
+        tl.changeLight();
 
     }
 }
